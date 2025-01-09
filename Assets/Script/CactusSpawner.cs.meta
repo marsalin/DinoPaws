@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 944d7c465fc2959418c0c7869a568684
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CactusPrefab: {fileID: 8175075283936206553, guid: cd72b71825d2d1b49943394d26b1807d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
