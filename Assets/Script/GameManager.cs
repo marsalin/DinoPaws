@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public string currentLevel;
     public GameObject[] character;
     public GameObject pauseMenu;
+    public GameObject exit;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Awake()
@@ -25,7 +26,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // ruft PauseGame() auf, wenn die Ecape Taste gedrückt wird
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Escape"))
         {
             GameManagerInstance.Instance.isPaused = !GameManagerInstance.Instance.isPaused;
             PauseGame();
@@ -51,6 +52,8 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             pauseMenu.SetActive(true);
+            if (Application.platform == RuntimePlatform.WebGLPlayer)
+                exit.SetActive(false);
         }
         else
         {

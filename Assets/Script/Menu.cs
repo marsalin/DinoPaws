@@ -9,9 +9,12 @@ public class Menu : MonoBehaviour
     public Text highscoreMediumText;
     public int highscoreHard;
     public Text highscoreHardText;
+    public GameObject exitMenu;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+            exitMenu.SetActive(false);
         // zeigt Highscore an
         highscoreEasy = PlayerPrefs.GetInt("HighscoreEasy", 0);
         highscoreEasyText.text = highscoreEasy.ToString();

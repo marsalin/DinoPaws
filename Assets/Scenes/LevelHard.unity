@@ -1023,6 +1023,7 @@ MonoBehaviour:
   - {fileID: 4098553932635873681, guid: a9d27a510e7336941ad4e477a2cc7531, type: 3}
   - {fileID: 4722031652072322463, guid: ed0f1f4d5ee851a448471071143bbb02, type: 3}
   pauseMenu: {fileID: 1941238236}
+  exit: {fileID: 1941238237}
 --- !u!114 &1837285160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,6 +1231,11 @@ Transform:
 --- !u!1 &1941238236 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2739308202168471990, guid: bb7e5b25dd1fc234982fbc726a63e6a6, type: 3}
+  m_PrefabInstance: {fileID: 1941238234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1941238237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 994223944457327907, guid: bb7e5b25dd1fc234982fbc726a63e6a6, type: 3}
   m_PrefabInstance: {fileID: 1941238234}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &230291907064346663

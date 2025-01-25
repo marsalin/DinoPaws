@@ -2434,7 +2434,7 @@ MonoBehaviour:
   highscoreMediumText: {fileID: 1995848353}
   highscoreHard: 0
   highscoreHardText: {fileID: 1708834311}
-  buttonClick: {fileID: 0}
+  exitMenu: {fileID: 1452909448}
 --- !u!4 &2105430253
 Transform:
   m_ObjectHideFlags: 0

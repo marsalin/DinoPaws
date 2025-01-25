@@ -531,6 +531,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1932966478195995354, guid: bb7e5b25dd1fc234982fbc726a63e6a6, type: 3}
   m_PrefabInstance: {fileID: 404386671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &404386674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 994223944457327907, guid: bb7e5b25dd1fc234982fbc726a63e6a6, type: 3}
+  m_PrefabInstance: {fileID: 404386671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &493008599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04845349, y: 0}
   m_AnchorMax: {x: 0.22636048, y: 0.16052972}
-  m_AnchoredPosition: {x: -0.26730347, y: -0.36138916}
+  m_AnchoredPosition: {x: -0.26727295, y: -0.36138916}
   m_SizeDelta: {x: 0.53461, y: -0.7226}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188459567
@@ -1434,6 +1439,7 @@ MonoBehaviour:
   - {fileID: 4098553932635873681, guid: a9d27a510e7336941ad4e477a2cc7531, type: 3}
   - {fileID: 4722031652072322463, guid: ed0f1f4d5ee851a448471071143bbb02, type: 3}
   pauseMenu: {fileID: 404386672}
+  exit: {fileID: 404386674}
 --- !u!4 &1800322517
 Transform:
   m_ObjectHideFlags: 0
